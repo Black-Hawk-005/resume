@@ -1,0 +1,81 @@
+/* This file contains the CSS styles for the resume web page */
+body {
+    margin: 0px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+
+.side-bar {
+    width: 18%;
+    background-color: rgb(62, 19, 119);
+    height: 990px;
+    position: fixed;
+    padding-left: 20px;
+}
+
+.side-bar-heading {
+    margin-top: 200px;
+    font-size: 21px;
+    font-weight: 650;
+    color: white;
+}
+
+.side-bar-li {
+    color: white;
+    margin: 0px 0px;
+}
+
+.side-bar-text {
+    color: white;
+    margin: 0px 0px;
+    padding: 5px 0px;
+}
+
+.side-bar-links {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    display: block;
+    margin: 0px 0px;
+    padding: 5px 0px;
+}
+
+.main-page {
+    margin-left: 300px;
+    margin-top: 0px;
+    padding: 40px 200px;
+    margin-bottom: 100px;
+}
+
+.header-name {
+    margin: 0px 0px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-page-sub-heading {
+    font-size: 26px;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 0px 0px;
+    margin-top: 20px;
+}
+
+.education-table {
+    width: 100%;
+}
+
+        
+.work-exp-table {
+    width: 100%;   
+}
+
+.work-exp-desc-list {
+    margin-top: 5px;
+}
+
+.project-list-items {
+    margin-top: 10px;
+}
