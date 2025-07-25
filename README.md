@@ -4,7 +4,8 @@ This repository contains the source code for my personal portfolio website, buil
 
 The live version is hosted on Netlify.
 
-### [Click here to redirect!](https://prem-danasekaran-portfolio.netlify.app/)
+### [Click here to redirect!](https://prem-danasekaran.netlify.app/)
+
 
 ***
 
