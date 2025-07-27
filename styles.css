@@ -79,3 +79,9 @@ body {
 .project-list-items {
     margin-top: 10px;
 }
+
+.project-links {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(62, 19, 119);
+}
