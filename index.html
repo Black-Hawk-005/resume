@@ -1,187 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Prem Danasekaran - Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Prem Danasekaran | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="side-bar">
-        <p class="side-bar-heading">
-            <i>CONTACT</i>
-        </p>
-        <ul class="side-bar-li">
-            <li>
-                 <p class="side-bar-text">
-                    +91-9042682601
+
+    <div class="sidebar">
+        <nav class="sidebar-nav">
+             <div class="progress-line">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <ul>
+                <li><a href="#home" class="nav-link active"><span class="dot"></span><span class="nav-text">Home</span></a></li>
+                <li><a href="#about" class="nav-link"><span class="dot"></span><span class="nav-text">About</span></a></li>
+                <li><a href="#experience" class="nav-link"><span class="dot"></span><span class="nav-text">Experience</span></a></li>
+                <li><a href="#projects" class="nav-link"><span class="dot"></span><span class="nav-text">Projects</span></a></li>
+                <li><a href="#skills" class="nav-link"><span class="dot"></span><span class="nav-text">Skills</span></a></li>
+                <li><a href="#education" class="nav-link"><span class="dot"></span><span class="nav-text">Education</span></a></li>
+                <li><a href="#contact" class="nav-link"><span class="dot"></span><span class="nav-text">Contact</span></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div class="container">
+            <section id="home" class="section">
+                <h1>Prem Danasekaran</h1>
+                <h2 class="subtitle">AI and Data Science Student</h2>
+                <p>
+                    I build intelligent, scalable web applications and explore the intersection of full-stack development and Artificial Intelligence.
                 </p>
-            </li>
-            <li>
-                <a class="side-bar-links" href="mailto:premdanasekaran@gmail.com">
-                    premdanasekaran@gmail.com
-                </a>
-            </li>
-            <li>
-                <a class="side-bar-links" href="https://linkedin.com/in/prem-danasekaran/" target="_blank">
-                    LinkedIn (Click here)
-                </a>
-            </li>
-            <li>
-                <a class="side-bar-links" href="https://github.com/Black-Hawk-005" target="_blank">
-                    GitHub (Click here)
-                </a>
-            </li>
-        </ul>
-               
-    </div>
+                <div class="social-links">
+                    <a href="https://github.com/Black-Hawk-005" target="_blank" aria-label="GitHub">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://linkedin.com/in/prem-danasekaran/" target="_blank" aria-label="LinkedIn">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                </div>
+            </section>
 
-    <div class="main-page">
-        <h1 class="header-name">
-            Prem Danasekaran
-        </h1>
+            <section id="about" class="section">
+                <h2 class="section-title">About Me</h2>
+                <div class="card">
+                    <p>
+                        A passionate B.Tech student specializing in Artificial Intelligence and Data Science, with a deep-seated interest in full-stack web development. My goal is to create seamless, intelligent user experiences by integrating robust backend systems with dynamic frontends, all powered by AI.
+                    </p>
+                    <p>
+                        I am actively seeking internship opportunities where I can apply my skills in both web technologies and machine learning to build impactful, real-world applications.
+                    </p>
+                </div>
+            </section>
 
-        <p class="main-page-sub-heading">
-            About Me
-        </p>
-        <hr>
-        <p class="main-page-text">
-            Passionate B.Tech student in Artificial Intelligence and Data Science with a strong interest in autonomous vehicles and web technologies. I aim to apply AI and ML to solve real-world mobility and transportation challenges. Currently seeking internship opportunities to contribute to impactful projects and grow through hands-on experience.
-        </p>
-
-        <p class="main-page-sub-heading">
-            Education
-        </p> 
-        <hr>
-        <table class="education-table">
-          <tr>
-            <td><strong><i>Shiv Nadar University</i></strong></td>
-            <td>B.Tech in AI and Data Science</td>
-            <td align="right">2023-2027</td>
-          </tr>
-
-          <tr>
-            <td><i>Chennai, TamilNadu</i></td>
-            <td>CGPA: 9.06 (as of Semester-4)</td>
-          </tr>
-
-          <tr>
-          </tr>
-
-          <tr>
-            <td><strong><i>Chennai Public School</i></strong></td>
-            <td>Senior Secondary (CBSE)</td>
-            <td align="right">2023</td>
-          </tr>
-
-          <tr>
-            <td><i>Chennai, TamilNadu</i></td>
-            <td>Score: 95.6</td>
-          </tr>
-        </table>
-
-        <p class="main-page-sub-heading">
-            Skills
-        </p>
-        <hr>
-        <p class="main-page-text">
-            <ul>
-                <li>
-                   <i>Languages</i>: Python, Java, C/C++, HTML/CSS, MySQL
-                </li>
-                <li>
-                    <i>Tools and Libraries</i>: Flask, Pandas, NumPy, Scikit-learn, Git, GitHub, VS Code, Google Colab
-                </li>
-            </ul>
-        </p>
-
-        <p class="main-page-sub-heading">
-            Work Experience
-        </p>
-        <hr>
-        <p class="main-page-text">
-            <table class="work-exp-table">
-                <tr>
-                    <td>
-                        <strong>Jupiter Brothers</strong>
-                    </td>
-                    <td align="right">
-                        June 2025 (1 month)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <i>AI Intern</i>
-                    </td>
-                </tr>
-            </table>
-            <ul class="work-exp-desc-list">
-                <li>
-                    Developed and implemented AI agents tailored for the AEC industry, leveraging frameworks like LangChain and LangGraph to automate tasks and streamline workflows.
-                </li>
-                <li>
-                    Utilized Hugging Face for embeddings and model-based capabilities to process industry-specific language and data.
-                </li>
-                <li>
-                    Integrated the IBM watsonx.ai SDK to enhance agent intelligence with ML and NLP.
-                </li>
-                <li>
-                    Tools: Hugging Face, LangChain, LangGraph, IBM watsonx.ai SDK, ChromaDB.
-                </li>
-            </ul>
-        </p>
-
-        <p class="main-page-sub-heading">
-            Projects
-        </p>
-        <hr>
-        <p class="main-page-text">
-            <ul>
-                <li class="project-list-items">
-                    <a class="project-links" href="https://github.com/Black-Hawk-005/car-service-management-system">Vehicle Service and Resource Management System (VSRMS)</a>
+            <section id="experience" class="section">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="card">
+                    <div class="job-header">
+                        <div>
+                            <h3>AI Intern</h3>
+                            <p class="job-company">Jupiter Brothers</p>
+                        </div>
+                        <p class="job-date">June 2025 | 1 month</p>
+                    </div>
                     <ul>
-                        <li>
-                            Developed a Flask-based web app to streamline operations in vehicle service centers.
-                        </li>
-                        <li>
-                            Implemented features like user-side appointment booking, service tracking, and admin-side management of schedules, payments, and service updates.
-                        </li>
-                        <li>
-                            Stack: Python, Flask, MySQL, Bootstrap.
-                        </li>
+                        <li>Developed and implemented AI agents tailored for the AEC industry, leveraging frameworks like LangChain and LangGraph.</li>
+                        <li>Utilized Hugging Face for embeddings and model-based capabilities to process industry-specific language and data.</li>
+                        <li>Integrated the IBM watsonx.ai SDK to enhance agent intelligence with ML and NLP.</li>
                     </ul>
-                </li> 
+                    <div class="tags">
+                        <span class="tag">Hugging Face</span><span class="tag">LangChain</span><span class="tag">LangGraph</span><span class="tag">IBM watsonx.ai</span><span class="tag">ChromaDB</span>
+                    </div>
+                </div>
+            </section>
 
-                <li class="project-list-items">
-                    <a class="project-links" href="https://github.com/Black-Hawk-005/VanEmdeBoasTree-and-Treap">Van Emde Boas Tree and Treap - Comparative Analysis</a>
-                    <ul>
-                        <li>
-                            Implemented both data structures from scratch in C++ to explore performance trade-offs.
-                        </li>
-                        <li>
-                            Analyzed and compared their complexities and use cases in fast search/insertion scenarios.
-                        </li>
-                         <li>
-                            Academic project for the Data Structures course (CS1006T).
-                        </li>
-                    </ul>
-                </li>
+            <section id="projects" class="section">
+                <h2 class="section-title">Projects</h2>
+                <div class="grid grid-cols-3">
+                    <div class="card">
+                        <h3>Vehicle Service & Resource Management System</h3>
+                        <p>A web app to streamline vehicle service center operations, featuring appointment booking and admin management.</p>
+                        <div class="tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">MySQL</span><span class="tag">Bootstrap</span></div>
+                    </div>
+                    <div class="card">
+                        <h3>Van Emde Boas Tree & Treap Analysis</h3>
+                        <p>A comparative study of two advanced data structures, implemented from scratch in C++ to analyze performance trade-offs.</p>
+                        <div class="tags"><span class="tag">C++</span><span class="tag">Data Structures</span><span class="tag">Algorithms</span></div>
+                    </div>
+                    <div class="card">
+                        <h3>Event Management Platform</h3>
+                        <p>A platform for tech events to handle registrations and real-time updates using Firebase for auth and data sync.</p>
+                        <div class="tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Firebase</span></div>
+                    </div>
+                </div>
+            </section>
 
-                <li class="project-list-items">
-                    <a class="project-links" href="https://github.com/Black-Hawk-005/Event-Management-App">Event Management Platform for Tech Events</a>
-                    <strong></strong>
-                    <ul>
-                        <li>
-                            Built a platform to handle registrations and updates for hackathons and tech events.
-                        </li>
-                        <li>
-                           Integrated Firebase Authentication for secure role-based access and Firestore for real-time data synchronization.
-                        </li>
-                        <li>
-                            Stack: Python, Streamlit, Firebase (Auth + Firestore).
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </p>
-    </div>
+            <section id="skills" class="section">
+                <h2 class="section-title">Skills</h2>
+                <div class="card">
+                    <h3>Languages</h3>
+                    <div class="tags"><span class="tag">Python</span><span class="tag">Java</span><span class="tag">C/C++</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+                    <h3 style="margin-top: 2rem;">Tools & Libraries</h3>
+                    <div class="tags"><span class="tag">Flask</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Scikit-learn</span><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span><span class="tag">Google Colab</span></div>
+                </div>
+            </section>
+
+            <section id="education" class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="grid grid-cols-2">
+                    <div class="card">
+                        <h3>Shiv Nadar University Chennai</h3>
+                        <p class="job-company">B.Tech in AI & Data Science</p>
+                        <p class="job-date">2023 - 2027</p>
+                        <p>CGPA: 9.06 / 10</p>
+                    </div>
+                    <div class="card">
+                        <h3>Chennai Public School</h3>
+                        <p class="job-company">Senior Secondary (CBSE)</p>
+                        <p class="job-date">2023</p>
+                        <p>Score: 95.6%</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2 class="section-title" style="text-align: center;">Get In Touch</h2>
+                <p style="text-align: center; max-width: 500px; margin: 0 auto;">
+                    I'm currently seeking new internship opportunities and am always open to connecting.
+                    Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                </p>
+                <div style="text-align: center;">
+                     <a href="mailto:premdanasekaran@gmail.com" class="button">Say Hello</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
